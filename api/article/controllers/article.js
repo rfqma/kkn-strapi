@@ -19,7 +19,8 @@ module.exports = {
 
     const data = await strapi.services.article.find({
       _limit: pageSize,
-      _start: (page - 1) * pageSize
+      _start: (page - 1) * pageSize,
+      _sort: 'published_at:desc'
     })
 
     const totalData = await strapi.services.article.count()

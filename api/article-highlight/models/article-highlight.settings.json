@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "article-highlight",
+  "info": {
+    "name": "Article Highlight"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articles": {
+      "collection": "article"
+    }
+  }
+}
