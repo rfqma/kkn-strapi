@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ngunut-kidul-profil",
+      "handler": "ngunut-kidul-profil.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ngunut-kidul-profil",
+      "handler": "ngunut-kidul-profil.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ngunut-kidul-profil",
+      "handler": "ngunut-kidul-profil.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

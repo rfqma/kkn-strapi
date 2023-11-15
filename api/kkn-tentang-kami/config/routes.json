@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kkn-tentang-kami",
+      "handler": "kkn-tentang-kami.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kkn-tentang-kami",
+      "handler": "kkn-tentang-kami.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kkn-tentang-kami",
+      "handler": "kkn-tentang-kami.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

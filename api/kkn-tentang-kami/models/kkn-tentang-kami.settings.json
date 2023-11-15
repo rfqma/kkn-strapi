@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "kkn-tentang-kami",
+  "info": {
+    "name": "KKN Tentang Kami"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    }
+  }
+}

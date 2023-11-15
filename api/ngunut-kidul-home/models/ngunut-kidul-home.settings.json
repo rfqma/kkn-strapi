@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "ngunut-kidul-home",
+  "info": {
+    "name": "Ngunut Kidul Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    }
+  }
+}
