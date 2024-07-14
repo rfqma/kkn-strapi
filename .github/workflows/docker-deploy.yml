@@ -38,5 +38,5 @@ jobs:
           port: 22
           script: |
             cd ${{ secrets.REMOTE_WORK_DIR }}
-            docker-compose pull
+            docker-compose pull app
             docker-compose up -d
