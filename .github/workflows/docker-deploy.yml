@@ -37,6 +37,6 @@ jobs:
           password: ${{ secrets.REMOTE_SSH_PW }}
           port: 22
           script: |
-            cd ${{ secrets.REMOTE_WORK_DIR }}
+            cd ${{ secrets.REMOTE_WORKING_DIR }}
             docker-compose pull app
             docker-compose up -d
