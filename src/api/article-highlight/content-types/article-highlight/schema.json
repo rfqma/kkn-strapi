@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "article_highlights",
+  "info": {
+    "singularName": "article-highlight",
+    "pluralName": "article-highlights",
+    "displayName": "article-highlight"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

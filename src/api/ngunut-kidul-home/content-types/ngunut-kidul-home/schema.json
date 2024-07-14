@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "ngunut_kidul_homes",
+  "info": {
+    "singularName": "ngunut-kidul-home",
+    "pluralName": "ngunut-kidul-homes",
+    "displayName": "ngunut-kidul-home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

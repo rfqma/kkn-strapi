@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "ngunut_kidul_profils",
+  "info": {
+    "singularName": "ngunut-kidul-profil",
+    "pluralName": "ngunut-kidul-profils",
+    "displayName": "ngunut-kidul-profil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

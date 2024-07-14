@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "tentang_kamis",
+  "info": {
+    "singularName": "tentang-kami",
+    "pluralName": "tentang-kamis",
+    "displayName": "tentang-kami"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
